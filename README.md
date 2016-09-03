@@ -1,6 +1,6 @@
-# robo-advisor
+# Build yourself a Robo-Advisor in F#
 
-Code and resources for 'Build yourself a Robo-Advisor in F#'
+Code and resources for the 'Build yourself a Robo-Advisor in F#' workshop, as presented at the 2016 F# Progressive Tutorials conference in London.
 
 ## Abstract
 

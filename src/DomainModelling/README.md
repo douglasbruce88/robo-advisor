@@ -9,4 +9,3 @@
   - Talks
   - Blogs
   - Documentation
-  

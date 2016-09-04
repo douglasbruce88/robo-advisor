@@ -9,7 +9,7 @@
   - Testing
     - NUnit, FSCheck, Unquote
 - Charting
-  - FSharp.Charting
+  - FSharp.Charting, XPlot, Excel
   - WinForms interop
 - Useful links
   - Talks

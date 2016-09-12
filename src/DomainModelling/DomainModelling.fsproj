@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="DomainModelling.fs" />
     <None Include="Script.fsx" />
+    <None Include="DomainModelTests.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">14</MinimumVisualStudioVersion>

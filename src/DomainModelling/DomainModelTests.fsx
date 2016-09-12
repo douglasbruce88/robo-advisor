@@ -6,7 +6,8 @@ open System
 let me = 
     { Name = "Doug"
       Gender = Male
-      DateOfBirth = DateTime(1988, 01, 29) }
+      DateOfBirth = DateTime(1988, 01, 29)
+      EmailAddress = None }
 
 let schedule = 
     { Amount = 500m<GBP>

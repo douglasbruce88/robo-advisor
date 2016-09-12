@@ -5,7 +5,13 @@ module Domain =
 
   type Gender = Male | Female
 
-  type Person = { Name : string; Gender : Gender; DateOfBirth : DateTime }
+  type EmailAddress = EmailAddres of string
+
+  type Person = { 
+      Name : string
+      Gender : Gender
+      DateOfBirth : DateTime
+      EmailAddress : EmailAddress option }
 
   type ContributionFrequency = Monthly | Annual
 

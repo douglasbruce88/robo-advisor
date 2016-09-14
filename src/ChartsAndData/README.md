@@ -34,5 +34,10 @@
 - Create test data using tuples, create line chart, create chart control, `[<AutoOpen>]` module
 - Create and format panel, add the chart control to it, add panel to the form
 - What can we do with `FSharp.Charting`? http://fslab.org/FSharp.Charting/index.html
+  - Area chart
+  - Use our data
+  - Multiple series
+
+- Extending the model: asset returns
 
 #### Reading data

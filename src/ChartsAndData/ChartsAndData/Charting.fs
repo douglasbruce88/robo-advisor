@@ -20,12 +20,22 @@ module Charting =
     let myPot = 
         { Value = 10000m<GBP>
           ValuationDate = DateTime(2016, 06, 30)
-          ContributionSchedule = schedule }
+          ContributionSchedule = schedule
+          AssetReturn = decimal 0.05 }
     
-    let valueMyPot = 
-        [ for i in 1..50 -> 
+    let yearsToRetirement = 25
+    
+    let contributions = 
+        [ for i in 0..yearsToRetirement -> 
               let date = myPot.ValuationDate.AddYears(i)
-              (date, valuePensionPot myPot date) ]
+              (date, fst (valuePensionPot myPot date)) ]
     
-    let testChart = Chart.Area(valueMyPot)
-    let chartControl = new ChartControl(testChart, Dock = DockStyle.Fill, Name = "Valuation")
+    let returns = 
+        [ for i in 0..yearsToRetirement -> 
+              let date = myPot.ValuationDate.AddYears(i)
+              (date, snd (valuePensionPot myPot date)) ]
+    
+    let contributionsChart = Chart.Area(contributions, Name = "Contributions")
+    let returnsChart = Chart.Area(returns, Name = "Asset Returns")
+    let combined = Chart.Combine([ returnsChart; contributionsChart ])
+    let chartControl = new ChartControl(combined.WithLegend(), Dock = DockStyle.Fill, Name = "Valuation")

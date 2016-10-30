@@ -1,4 +1,4 @@
-namespace UINextApplication1
+namespace WebApp
 
 type Global() =
     inherit System.Web.HttpApplication()

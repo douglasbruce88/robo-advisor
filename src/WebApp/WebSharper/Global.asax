@@ -1,1 +1,1 @@
-<%@ Application Inherits="UINextApplication1.Global" %>
+<%@ Application Inherits="WebApp.Global" %>

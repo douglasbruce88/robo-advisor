@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChartsAndData", "ChartsAndData.fsproj", "{FFF44145-8863-456A-B4EC-A48517306DBC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChartsAndData.Tests", "..\ChartsAndData.Tests\ChartsAndData.Tests.fsproj", "{E808BC83-DB05-47B0-8F2D-6F6E1820B85B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF44145-8863-456A-B4EC-A48517306DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF44145-8863-456A-B4EC-A48517306DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF44145-8863-456A-B4EC-A48517306DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF44145-8863-456A-B4EC-A48517306DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E808BC83-DB05-47B0-8F2D-6F6E1820B85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E808BC83-DB05-47B0-8F2D-6F6E1820B85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E808BC83-DB05-47B0-8F2D-6F6E1820B85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E808BC83-DB05-47B0-8F2D-6F6E1820B85B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

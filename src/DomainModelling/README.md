@@ -4,8 +4,27 @@
   - People, time, money
 - How can F# help us model it?
   - ADTs
+    - Bool
+    - Option
+    - Result
+    - Composite   
+    - Wrappers
+    - Immutable records
+  - Pattern matching
   - Units of measure
+    - Currency
+    - Derived measures
+    - Calculations
 - Useful links
   - Talks
+    - Scott Wlaschin NDC: https://vimeo.com/97507575
+    - Tomas Petricek Channel 9: https://www.youtube.com/watch?v=Sa6bntNslvY
+    - Mark Seeman NDC: https://vimeo.com/131631483
   - Blogs
+    - http://fsharpforfunandprofit.com/ddd/
+    - http://tomasp.net/blog/type-first-development.aspx/
+    - http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/
   - Documentation
+- Tools  
+  - OS: Windows, Mac, Linux
+  - IDE: Visual Studio, VS Code, Atom, Xamarin Studio

@@ -1,4 +1,5 @@
-# Build yourself a Robo-Advisor in F#
+Build yourself a Robo-Advisor in F#
+===
 
 Code and resources for the 'Build yourself a Robo-Advisor in F#' workshop, as presented at the 2016 F# Progressive Tutorials conference in London.
 
@@ -28,3 +29,7 @@ Item        | Value
 16:00-16:45 | Web app
 16:45-17:00 | Demos
 17:00-17:15 | Wrap-up
+
+# Links
+
+**TODO**: links to other `readme` and `intro` files

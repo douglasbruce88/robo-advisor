@@ -39,7 +39,7 @@ module Site =
 
     let HomePage ctx =
         Templating.Main ctx EndPoint.Home "Home" [
-            h1 [text "Say Hi to the server!"]
+            h1 [text "How much will your pot be worth when you retire?"]
             div [client <@ Client.Main() @>]
         ]
 

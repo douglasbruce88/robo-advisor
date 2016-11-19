@@ -3,8 +3,8 @@
 module ChartData = 
     open Domain
     open System
-    open WebSharper.Charting
     open WebSharper
+    open WebSharper.Charting
     
     let me = 
         { Name = "Doug"
@@ -23,7 +23,7 @@ module ChartData =
           AssetReturn = decimal 0.05 }
     
     let yearsToRetirement = 25
-       
+    
     let contributions = 
         [ for i in 0..yearsToRetirement -> 
               let date = myPot.ValuationDate.AddYears(i)
@@ -45,9 +45,11 @@ module ChartData =
                   |> snd
                   |> Convert.ToDouble
               (date.ToShortDateString(), value) ]
-   
-    let contributionsChart = Chart.Line(contributions)
-    let returnsChart = Chart.Line(returns)
-
+    
+    let contributionsChart = 
+        Chart.Line(contributions).WithStrokeColor(Color.Name "blue").WithFillColor(Color.Name "blue").WithYAxis("Pot Value (£)")
+    let returnsChart = 
+        Chart.Line(returns).WithStrokeColor(Color.Name "red").WithFillColor(Color.Name "red")
+    
     [<Rpc>]
     let combined() = Chart.Combine([ returnsChart; contributionsChart ])

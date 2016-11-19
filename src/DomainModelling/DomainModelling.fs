@@ -5,7 +5,7 @@ module Domain =
 
   type Gender = Male | Female
 
-  type EmailAddress = EmailAddres of string
+  type EmailAddress = EmailAddress of string
 
   type Person = { 
       Name : string

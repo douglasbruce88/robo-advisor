@@ -1,4 +1,5 @@
-# Build yourself a Robo-Advisor in F#
+Build yourself a Robo-Advisor in F#
+===
 
 Code and resources for the 'Build yourself a Robo-Advisor in F#' workshop, as presented at the 2016 F# Progressive Tutorials conference in London.
 
@@ -16,15 +17,19 @@ In this progressive workshop, you will discover the following:
 
 ## Workshop timings
 
-Assuming 10:00 start
+Assuming 14:00 start
 
 Item        | Value
 ----------- | ---
-10:00-10:15 | Introduction
-10:15-10:45 | Domain Modelling
-10:45-11:00 | Break
-11:00-11:45 | Data & charting
-11:45:12:00 | Break
-12:00-12:45 | Web app
-12:45-13:00 | Demos
-13:00-13:15 | Wrap-up
+14:00-14:15 | Introduction
+14:15-14:45 | Domain Modelling
+14:45-15:00 | Break
+15:00-15:45 | Data & charting
+15:45:16:00 | Break
+16:00-16:45 | Web app
+16:45-17:00 | Demos
+17:00-17:15 | Wrap-up
+
+# Links
+
+**TODO**: links to other `readme` and `intro` files

@@ -5,6 +5,7 @@ module Charting =
     open FSharp.Charting
     open FSharp.Charting.ChartTypes
     open System
+    open System.Drawing
     open System.Windows.Forms
     
     let me = 
@@ -38,4 +39,4 @@ module Charting =
     let contributionsChart = Chart.Area(contributions, Name = "Contributions")
     let returnsChart = Chart.Area(returns, Name = "Asset Returns")
     let combined = Chart.Combine([ returnsChart; contributionsChart ])
-    let chartControl = new ChartControl(combined.WithLegend(), Dock = DockStyle.Fill, Name = "Valuation")
+    let chartControl = new ChartControl(combined.WithLegend().WithXAxis(Title = "Date", TitleFontStyle = FontStyle.Bold).WithYAxis(Title = "Pot Value"), Dock = DockStyle.Fill, Name = "Valuation")

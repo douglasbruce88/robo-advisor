@@ -1,0 +1,9 @@
+Thoughts on F# workshop:
+
+- Keeping to time is important, have check points
+- Give a few canoncial examples of ADTs rather than audience?
+- Bring people pack together at the start of each section
+- Adopt TDD style for valuing pot?
+- Use GitHub links to guide people
+- Prepare handout or cheat sheet
+- Ask 'why are you here' in intro

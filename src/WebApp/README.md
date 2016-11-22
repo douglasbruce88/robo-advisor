@@ -23,6 +23,7 @@
   - `ChartData.fs`: almost identical to previous code but uses `WebSharper.Charting`
 - Improve our charts! Begin with the documentation at [https://github.com/intellifactory/websharper.charting](https://github.com/intellifactory/websharper.charting) and [http://intellifactory.github.io/websharper.ui.next.samples/](http://intellifactory.github.io/websharper.ui.next.samples/)
   - Formatting & labelling: `WithTitle`, `WithFillColor`, `WithStrokeColor`
+  - Other charting frameworks: `HighCharts` [http://intellifactory.github.io/websharper.highcharts.samples/](http://intellifactory.github.io/websharper.highcharts.samples/)
   - Buttons to change 'levers': choose retirement age, contributions, expected return
 
 #### D.I.Y

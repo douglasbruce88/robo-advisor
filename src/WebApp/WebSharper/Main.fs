@@ -41,6 +41,8 @@ module Site =
         Templating.Main ctx EndPoint.Home "Home" [
             h1 [text "How much will your pot be worth when you retire?"]
             div [client <@ Client.Main() @>]
+            h1 [text "Websharper"]
+            div [client <@ StockControl.Main() @>]
         ]
 
     let AboutPage ctx =

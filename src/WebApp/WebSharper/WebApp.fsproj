@@ -178,6 +178,10 @@
       <HintPath>packages\WebSharper.3.6.18.241\lib\net40\WebSharper.Core.JavaScript.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="WebSharper.Highstock">
+      <HintPath>packages\WebSharper.Highstock.3.6.9.180\lib\net40\WebSharper.Highstock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="WebSharper.InterfaceGenerator">
       <HintPath>packages\WebSharper.3.6.18.241\lib\net40\WebSharper.InterfaceGenerator.dll</HintPath>
       <Private>True</Private>

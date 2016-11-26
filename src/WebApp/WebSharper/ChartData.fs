@@ -49,5 +49,4 @@ module ChartData =
     let contributionsChart = Chart.Line(contributions)
     let returnsChart = Chart.Line(returns)
 
-    [<Rpc>]
     let combined() = Chart.Combine([ returnsChart; contributionsChart ])

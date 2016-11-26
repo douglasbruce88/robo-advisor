@@ -56,7 +56,6 @@
     <Compile Include="StatePensionAge.fs" />
     <Compile Include="Charting.fs" />
     <Compile Include="Form.fs" />
-    <None Include="Script.fsx" />
     <Compile Include="Program.fs" />
     <Content Include="App.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

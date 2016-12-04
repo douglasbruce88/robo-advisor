@@ -7,10 +7,6 @@
 - Hooking up our Charts
   - WebSharper has highcharts module or its built-in Charting package as part of `UINext`. The latter tries to more resemble `FSharp.Charting`. We need a client-server app in order to be able to process our computations
   - Fable has D3 bindings
-- DevOps
-  - NuGet; MSBuild; Visual Studio or Paket; Fake; VS Code/Atom
-  - CI (TeamCity), CD (Octopus)
-  - Azure, Infrastructure as code
 
 ## Walkthrough of example
 

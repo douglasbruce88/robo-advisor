@@ -1,10 +1,16 @@
 # Domain modelling
 
-## What is the domain?
+A good first step towards building a new piece of software is to model the domain: what exactly is it we're getting the software to do? What are the real-life equivalents of the code we want to write?
+
+## What is our domain?
+
+In a nutshell, we want to take **someone** and calculate **how much** their pension pot will be worth **when** they retire.
+
+The bold sections give us our basic domain:
 
 - People
-- Time
 - Money
+- Time
 
 ## How can F# help us model it?
 
@@ -25,6 +31,10 @@
 - Derived measures (*e.g* `kg m / s^2`)
 - Reduce errors in conversions & calculations
   - How bad can this really be? Take a look [here](https://www.wired.com/2010/11/1110mars-climate-observer-report/)!
+
+## Your turn!
+
+Using what we've just discussed, pair up and come up with a minimal domain model for figuring out how much money someone is likely to have in retirement.
 
 ## Useful links
 

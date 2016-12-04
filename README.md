@@ -11,9 +11,9 @@ Over the last couple of years, robo-advisors have emerged as a platform for auto
 
 In this progressive workshop, you will discover the following:
 
-- Understand the domain and model it with some help from F#'s Algebraic Data Types --- head [here](./src/DomainModelling) to find out what's in store!
-- Leverage F#'s data capabilities and make a first program that can chart our projected savings --- more info on [this page](./src/ChartsAndData)
-- Take it to the next level by building a web-based robo-advisor using one of F#'s fantastic open-source web app frameworks --- there are a few hints [here](./src/WebApp)
+- Understand the domain and model it with some help from F#'s Algebraic Data Types - head [here](./src/DomainModelling) to find out what's in store!
+- Leverage F#'s data capabilities and make a first program that can chart our projected savings - more info on [this page](./src/ChartsAndData)
+- Take it to the next level by building a web-based robo-advisor using one of F#'s fantastic open-source web app frameworks - there are a few hints [here](./src/WebApp)
 
 ## Workshop timings
 

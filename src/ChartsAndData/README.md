@@ -1,6 +1,6 @@
 # Charts and data
 
-- Getting and working with data
+## Getting and working with data
   - Type providers
   - Functional collections
   - Statistics packages
@@ -8,10 +8,12 @@
     - MathNet
   - Testing
     - NUnit, FSCheck, Unquote
-- Charting
+
+## Charting
   - FSharp.Charting, XPlot, Excel
   - WinForms interop
-- Useful links
+
+## Useful links
   - Talks
   - Blogs
   - Documentation
@@ -19,7 +21,8 @@
 
 ## Step-by-step tutorial
 
-- Can reference code from [https://github.com/douglasbruce88/robo-advisor/tree/master/src/ChartsAndData/ChartsAndData](https://github.com/douglasbruce88/robo-advisor/tree/master/src/ChartsAndData/ChartsAndData)
+- Start with the completed domain from the first part, the code is [here](../DomainModelling/DomainModelling.fs)
+- If you get stuck, you can reference some [sample code](./ChartsAndData)
 - Try to explore yourself, search for online docs
 
 #### Getting Started
